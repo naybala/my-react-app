@@ -1,0 +1,26 @@
+.animal-show {
+    position: relative;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0px 3px 4px lightgray;
+    cursor: pointer;
+    transition: 0.4s;
+    transform: translateY(0px);
+}
+
+.animal-show:hover {
+    transition: 0.4s;
+    transform: translateY(-5px);
+}
+
+.animal {
+    height: 200px;
+}
+
+.reaction {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+}
